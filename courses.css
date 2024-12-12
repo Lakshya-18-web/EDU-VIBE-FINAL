@@ -1,0 +1,115 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar .logo a {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo-img {
+    height: 40px;
+    width: auto;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.navbar .nav-links li {
+    margin: 0 15px;
+}
+
+.navbar .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar .nav-links li a.request-call {
+    background-color: #ff6f61;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar .nav-links li a:hover {
+    color: #ff6f61;
+}
+
+.navbar .nav-links li a.request-call:hover {
+    background-color: #ff3b2b;
+}
+
+/* Course Section */
+#courses {
+    padding: 60px 30px;
+}
+
+#courses h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Course Content Styling */
+.course {
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.course h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.course-video {
+    margin-bottom: 20px;
+}
+
+.course-description {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.feedback {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.stars {
+    font-size: 2em;
+    color: gold;
+    cursor: pointer;
+}
+
+.stars .star {
+    margin: 0 5px;
+}
+
+#feedback-message {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+}
